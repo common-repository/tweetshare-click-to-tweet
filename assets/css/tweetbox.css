@@ -1,0 +1,774 @@
+
+/*------------- Theme 0 --------------*/
+.default-tweetshare-panels.theme-0{
+    border: none;
+}
+.theme-0{
+    border: 5px solid #00b6e6;
+}
+.twtboxtwt{
+    border: 0 !important;
+    font-weight: bold !important;
+}
+.twtboxbtn{
+    border: 0;
+    float: right !important;
+}
+.twtboxbtn a{
+    text-decoration: none !important;
+}
+/*------------- End Theme 0 --------------*/
+
+/*------------- Theme 1 --------------*/
+.tweetshare-theme-1{
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-1:hover{
+    border: 5px solid #e5e5e5;
+}
+.tweetshare-theme-btn1{
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-1:hover .tweetshare-theme-btn1{
+    color: #707070 !important;
+}
+.twtboxtwt1{
+    border-bottom: 1px solid #ccc !important;
+    font-weight: bold !important;
+} 
+.theme-1{
+    box-shadow: 0px 1px 3px 3px #ccc !important;
+}
+.entry-content .tweetshare-theme-1{
+    box-shadow: 0px 1px 3px 3px #ccc !important;
+}
+
+.tweetshare-tweet1 .tweetshare-panels-body.get_text,.tweetshare-theme-1 .tweetshare-panels-body.get_text,.tweetshare-theme-2 .tweetshare-panels-body.get_text{
+    font-weight: bold !important;
+}
+/*------------- End Theme 1 --------------*/
+
+/*------------- Theme 2 --------------*/
+.tweetshare-theme-2{
+    display: block;
+    position: relative;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+}
+.tweetshare-theme-2:hover{
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+}
+.tweetshare-theme-btn2{
+    color: #00b6e6 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-2:hover .tweetshare-theme-btn2{
+    color: #707070 !important;
+}
+.theme-2{
+    border: 1px solid #ccc !important;
+}
+.twtboxtwt2{
+    border-bottom: 1px solid #ccc !important;
+    margin: 3px !important;
+}
+/*.twtboxtwt2 p{
+    text-align: center !important;
+}*/
+.twtboxbtn2{
+    text-align: center !important;
+    float: none !important;
+}
+.entry-content .tweetshare-theme-3 #tweetshare-theme-btn{
+    text-align: center !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/*------------- End Theme 2 --------------*/
+
+/*------------- Theme 3 --------------*/
+.tweetshare-theme-3{
+    display: block;
+    position: relative;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+}
+.tweetshare-theme-3:hover{
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
+}
+.tweetshare-theme-btn3{
+    color: #00b6e6 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-3:hover .tweetshare-theme-btn3{
+    color: #707070 !important;
+}
+.twtboxtwt3{
+    border: 1px solid #ccc !important;
+    border-radius: 2px !important;
+    box-shadow: 4px 1px 4px 0px #ccc !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+.twtboxbtn3{
+    border: 1px solid #ccc !important;
+    margin-top: 0px !important;
+    border-radius: 2px !important;
+    width: 100% !important;
+    box-shadow: 4px 1px 4px 1px #ccc !important;
+    text-align: center !important;
+}
+/*------------- End Theme 3 --------------*/
+
+/*------------- Theme 4 --------------*/
+.tweetshare-theme-4{
+    display: block;
+    position: relative;
+    border: none;
+    background: #f7f7f7 !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-4:hover .tweetshare-panels-body{
+    background: #333;
+    /*color:#fff;*/
+}
+.tweetshare-theme-btn4{
+    color: #00b6e6 !important;
+    float:right;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-4:hover .tweetshare-theme-btn4{
+    color: #333 !important;
+}
+.twtboxtwt4{
+    background: rgb(240,248,255) !important;
+    text-align: center !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 3px !important;
+}
+.twtboxbtn4{
+    text-align: right !important;
+    float: none !important;
+}
+/*------------- End Theme 4 --------------*/
+
+/*------------- Theme 5 --------------*/
+.tweetshare-theme-5{
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-5:hover{
+    border: 5px solid #e5e5e5;
+}
+.tweetshare-theme-5:hover .tweetshare-panels-body{
+    text-decoration: underline;
+}
+.tweetshare-theme-btn5{
+    color: #00b6e6 !important;
+    float:left;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-5:hover .tweetshare-theme-btn5{
+    color: #707070 !important;
+}
+.theme-5{
+    border: 2px solid rgb(204, 204, 204) !important;
+    text-align: center !important;
+}
+/*------------- End Theme 5 --------------*/
+
+/*------------- Theme 6 --------------*/
+.tweetshare-theme-6{
+    display: block;
+    position: relative;
+    border-left: 5px solid #00b6e6;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-6:hover{
+    border-left: 5px solid #e5e5e5;
+}
+.tweetshare-theme-btn6{
+    color: #00b6e6 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-6:hover .tweetshare-theme-btn6{
+    color: #707070 !important;
+}
+.theme-6{
+    display: block !important;
+    border-left: 5px solid #00b6e6 !important;
+    font-family: "Helvetica Neue", Helvetica, Arial !important; 
+}
+.twtboxbtn6{
+    background: #ccc !important;
+    color: white !important;
+    width: 100% !important;
+}
+
+.border-top {
+    border-top: 5px solid #00b6e6 !important;
+    width: 60px !important;
+    padding: 0 !important;
+}
+/*------------- End Theme 6 --------------*/
+
+/*------------- Theme 7 --------------*/
+.tweetshare-theme-7{
+    display: block; 
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-7:hover .tweetshare-border-top{
+    background-color: #bfbfbf;
+}
+.tweetshare-theme-btn7{
+    color: #00b6e6 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-7:hover .tweetshare-theme-btn7{
+    color: #707070 !important;
+}
+.tweetshare-border-top{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 5px;
+    background-color: #00b6e6;
+}
+.theme-7{
+    border: 1px solid rgb(240,248,255) !important;
+    box-shadow: 1px 2px 2px 0px #ccc !important;
+}
+/*------------- End Theme 7 --------------*/
+
+/*------------- Theme 8 --------------*/
+
+.tweetshare-theme-8{
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-8:hover .tweetshare-panels-body{
+    color:#1f2836 !important;
+}
+.tweetshare-theme-btn8{
+    color: #707070 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-8:hover .tweetshare-theme-btn8{
+    color: #00b6e6 !important;
+}
+.theme-8{
+    border: 1px solid aliceblue !important;
+    padding: 3px !important;
+}
+.twtboxtwt8{
+    width: 81% !important;
+    text-align: justify !important;
+}
+/*------------- End Theme 8 --------------*/
+
+/*------------- Theme 9 --------------*/
+.tweetshare-theme-9{
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-9:hover .tweetshare-panels-body{
+    color:#1f2836 !important;
+}
+.tweetshare-theme-btn9{
+    color: #707070 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+    border: 1px solid #00b6e6;
+    padding: 8px 10px 2px 10px;
+    border-radius: 20px;
+}
+.tweetshare-theme-9:hover .tweetshare-theme-btn9{
+    color: #00b6e6 !important;
+    border-color: #ddd;
+}
+.twtboxtwt9{
+    width: 81% !important;
+}
+.twtboxbtn9{
+    border: 1px solid #00b6e6 !important;
+    border-radius: 20px !important;
+}
+/*------------- End Theme 9 --------------*/
+
+/*------------- Theme 10 --------------*/
+.tweetshare-theme-10{
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+    box-shadow: #ccc -1px 1px,#ccc -2px 2px,#ccc -3px 3px,#ccc -4px 4px,#ccc -5px 5px,#ccc -6px 6px,#ccc -7px 7px,#ccc -8px 8px,#ccc -9px 9px,#ccc -10px 10px;
+    -moz-box-shadow: #ccc -1px 1px,#ccc -2px 2px,#ccc -3px 3px,#ccc -4px 4px,#ccc -5px 5px,#ccc -6px 6px,#ccc -7px 7px,#ccc -8px 8px,#ccc -9px 9px,#ccc -10px 10px;
+    -o-box-shadow: #ccc -1px 1px,#ccc -2px 2px,#ccc -3px 3px,#ccc -4px 4px,#ccc -5px 5px,#ccc -6px 6px,#ccc -7px 7px,#ccc -8px 8px,#ccc -9px 9px,#ccc -10px 10px;
+}
+.tweetshare-theme-10:hover{
+    box-shadow: #00b6e6 -1px 1px,#00b6e6 -2px 2px,#00b6e6 -3px 3px,#00b6e6 -4px 4px,#00b6e6 -5px 5px,#00b6e6 -6px 6px,#00b6e6 -7px 7px,#00b6e6 -8px 8px,#00b6e6 -9px 9px,#00b6e6 -10px 10px;
+    -moz-box-shadow: #00b6e6 -1px 1px,#00b6e6 -2px 2px,#00b6e6 -3px 3px,#00b6e6 -4px 4px,#00b6e6 -5px 5px,#00b6e6 -6px 6px,#00b6e6 -7px 7px,#00b6e6 -8px 8px,#00b6e6 -9px 9px,#00b6e6 -10px 10px;
+    -o-box-shadow: #00b6e6 -1px 1px,#00b6e6 -2px 2px,#00b6e6 -3px 3px,#00b6e6 -4px 4px,#00b6e6 -5px 5px,#00b6e6 -6px 6px,#00b6e6 -7px 7px,#00b6e6 -8px 8px,#00b6e6 -9px 9px,#00b6e6 -10px 10px;
+}
+.tweetshare-theme-10:hover .tweetshare-panels-body{
+    color:#1f2836 !important;
+}
+.tweetshare-theme-btn10{
+    color: #707070 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-10:hover .tweetshare-theme-btn10{
+    color: #00b6e6 !important;
+}
+.twtboxtwt10{
+    width: 81% !important;
+}
+.theme-10{
+    box-shadow: #ccc -1px 1px,#ccc -2px 2px,#ccc -3px 3px,#ccc -4px 4px,#ccc -5px 5px,#ccc -6px 6px,#ccc -7px 7px,#ccc -8px 8px,#ccc -9px 9px,#ccc -10px 10px !important;
+}
+/*------------- End Theme 10 --------------*/
+
+/*------------- Theme 11 --------------*/
+.tweetshare-theme-11{
+    display: block;
+    position: relative;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+}
+.tweetshare-theme-11:hover .tweetshare-panels-body{
+    background: #c2e2ed !important;
+}
+.tweetshare-theme-btn11{
+    color: #00b6e6 !important;
+    float: left;
+    font-size: 18px;
+    margin-top: -8px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-11:hover .tweetshare-theme-btn11{
+    color: #707070 !important;
+}
+.theme-11{
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1) !important;
+    margin-top: 12px !important;
+}
+.twtboxtwt11{
+    border-bottom: 1px solid rgba(0,0,0,.1) !important;
+}
+.twtboxbtn11{
+    background: rgb(245,245,245) !important;
+    width: 100% !important;
+}
+/*------------- End Theme 11 --------------*/
+
+/*------------- Theme 12 --------------*/
+.tweetshare-theme-12{
+    display: block;
+    position: relative;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+}
+.twt12{
+    font-size: 15px;
+    padding: 15px;
+    margin: -20px auto;
+}
+.tweetshare-theme-12:hover .tweetshare-panels-body{
+    background: #c2e2ed !important;
+}
+.tweetshare-theme-btn12{
+    color: #00b6e6 !important;
+    float:right;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-12:hover .tweetshare-theme-btn12{
+    color: #707070 !important;
+}
+.theme-12{
+    margin-top: 10px !important;
+}
+/*------------- End Theme 12 --------------*/
+
+/*------------- Theme 13 --------------*/
+.tweetshare-theme-13{
+    display: block;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+}
+.tweetshare-theme-13:hover .tweetshare-panels-body{
+    background: #c2e2ed !important;
+}
+.tweetshare-theme-btn13{
+    color: #00b6e6 !important;
+    float:right;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-13:hover .tweetshare-theme-btn13{
+    color: #707070 !important;
+}
+.theme-13{
+    border: 1px dotted rgb(0,182,230) !important;
+}
+/*------------- End Theme 13 --------------*/
+
+/*------------- Theme 14 --------------*/
+.tweetshare-theme-14{
+    display: block;
+    position: relative;
+    border: 1px solid #e8f6fb;
+    border-radius: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-14:hover .tweetshare-panels-body{
+    background: #c2e2ed !important;
+}
+.tweetshare-theme-btn14{
+    color: #00b6e6 !important;
+    float:right;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-14:hover .tweetshare-theme-btn14{
+    color: #707070 !important;
+}
+.theme-14{
+    border-left: 4px dashed rgb(0,182,230) !important;
+}
+/*------------- End Theme 14 --------------*/
+
+/*------------- Theme 15--------------*/
+.tweetshare-theme-15{
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-15:hover .tweetshare-panels-body{
+    color:#1f2836 !important;
+}
+.tweetshare-theme-btn15{
+    color: #707070 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-15:hover .tweetshare-theme-btn15{
+    color: #00b6e6 !important;
+}
+.theme-15{
+    border: 1px solid rgb(0,182,230) !important;
+}
+/*------------- End Theme 15 --------------*/
+
+/*------------- Theme 16 --------------*/
+.tweetshare-theme-16{
+    display: block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.6em;
+    line-height: 140%;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.tweetshare-theme-16:hover .tweetshare-panels-body{
+    color:#1f2836 !important;
+}
+
+.tweetshare-theme-btn16{
+    color: #707070 !important;
+    font-size:18px;
+    margin-top:5px;
+    text-decoration: none !important;
+}
+.tweetshare-theme-16:hover .tweetshare-theme-btn16{
+    color: #00b6e6 !important;
+}
+.theme-16 .tweetdis_click_to_tweet2::before {
+    border-top: 8px solid #298ba4 !important;
+    border-right: 8px solid #298ba4 !important;
+    border: 8px solid transparent !important;
+    border-top: 8px solid #298ba4 !important;
+    border-right: 8px solid #298ba4 !important;
+    content: '';
+    left: 130px !important;
+    bottom: 25px !important;
+    position: absolute !important;
+}
+/*------------- End Theme 16 --------------*/
+
+/* Extra Styles */
+#tweetshare-theme-btn a{
+    text-decoration: none !important;
+}
+.entry-content a{
+    box-shadow: none !important;
+}
+/*============================For Tweetbox Font family===================================*/
+
+#TweetBox .font-select > a{border: 1px solid #dddddd !important;border-radius:0;min-height: 30px;}
+#TweetBox .font-select{width: 190px;}
+#TweetBox .fs-drop{width: 190px;}
+#TweetBox .fs-results{border-right: 1px solid #ddd;width: 189px;}
+#TweetBox .font-select > a div b{background: rgba(0, 0, 0, 0) url("../../assets/img/fs-sprite.png") no-repeat scroll 0 1px;}
+
+/*============================For Tweetbox Font family===================================*/
+
+/*============================For Tweetbox Preview===================================*/
+
+#TweetBox .all-theme{  border: 2px solid #959595;height: 350px;overflow-y: scroll;padding: 10px;width: 40%;float: left;}
+#TweetBox .all-theme div{float: left;padding: 6px;cursor: pointer;}
+#TweetBox .all-theme .th-main{margin-bottom: 10px;}
+#TweetBox .all-theme img{ width: 100%;height: auto;cursor: pointer;}
+#TweetBox .all-theme div:hover{background-color: #e6e6e6;}
+#TweetBox .th_prev-div{float: right;width: 55%;}
+
+/*============================For Tweetbox Preview===================================*/
+.entry-content .tweetshare-theme-1 .tweetshare-panels-body.get_text{
+    border-bottom: 1px solid #ccc;
+}
+.entry-content .tweetshare-theme-2{
+    text-align: center;
+}
+.entry-content .tweetshare-theme-3 .tweetshare-panels-body.get_text{
+    border-bottom: 1px solid #ccc;
+}
+.entry-content .tweetshare-theme-4{
+    text-align: center;
+}
+.entry-content .tweetshare-theme-4:hover{
+    color: #000;
+}
+.entry-content .tweetshare-theme-4 .tweetshare-panels-body.get_text{
+    background: rgb(240,248,255);
+}
+.entry-content .tweetshare-theme-4 .tweetshare-panels-body.get_text:hover{
+    color: #000;
+}
+.entry-content .tweetshare-theme-4 .tweetshare-panels-footer .tweetshare-theme-btn3:hover{
+    color: #000 !important;
+}
+.entry-content .tweetshare-theme-4 .tweetshare-panels-footer .tweetshare-theme-btn3{
+    float:right !important;
+}
+.entry-content .tweetshare-theme-4 .tweetshare-panels-footer{
+    width: 100%;
+}
+.entry-content .tweetshare-theme-4 .tweetshare-panels-footer{
+    float: right;
+}
+.entry-content .tweetshare-theme-8 .tweetshare-panels{
+    border: 1px solid #f0f8ff;
+}
+
+.entry-content .tweetshare-theme-7 .tweetshare-panels{
+    border: 1px solid rgb(240,248,255);
+    box-shadow: 1px 2px 2px 0px #ccc;
+}
+.entry-content .tweetshare-theme-2 .tweetshare-panels-footer{
+    box-shadow: 4px 1px 4px 1px #ccc !important;
+}
+.entry-content .tweetshare-theme-2 .tweetshare-panels-body.get_text{
+    box-shadow: 4px 1px 4px 1px #ccc !important;
+}
+.entry-content .tweetshare-theme-3 .tweetshare-panels{
+    border: 1px solid #ccc;
+}
+.entry-content .tweetshare-theme-2 .tweetshare-panels-body{
+    border-radius: 2px !important;
+}
+.entry-content .tweetshare-theme-2 .tweetshare-panels-footer{
+    border-radius: 2px !important;
+}
+.entry-content .tweetshare-theme-4 .tweetshare-panels-body{
+    background: rgb(240,248,255) !important;
+    text-align: center !important;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 3px !important;
+}
+.entry-content .tweetshare-theme-8 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+.entry-content .tweetshare-theme-9 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+.entry-content .tweetshare-theme-10 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+.entry-content .tweetshare-theme-12 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+.entry-content .tweetshare-theme-13 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+.entry-content .tweetshare-theme-14 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+.entry-content .tweetshare-theme-15 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+.entry-content .tweetshare-theme-16 .tweetshare-panels .tweetshare-panels-body .fa.fa-twitter{
+    margin: -15px auto;
+}
+#scrollbar1 {
+    width: 80%;
+    margin: 20px auto 10px;
+    position: relative;
+}

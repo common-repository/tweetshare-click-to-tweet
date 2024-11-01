@@ -1,0 +1,435 @@
+#tweetshare-control-panel {
+    height: 50px;
+    padding-top: 0px;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#tweetshare-control-panel{
+    float: left;
+}
+#tweetshare-control-panel .tweetshare-right {
+    float: left;
+}
+
+#tweetshare-control-panel .tweetshare-left > *,
+#tweetshare-control-panel .tweetshare-right > * {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 28px;
+}
+
+#tweetshare-current-item a {
+    text-decoration: none;
+}
+#tweetshare-current-item a:hover {
+    text-decoration: underline;
+}
+
+#tweetshare-item-selector {
+    position: relative;
+    top: -1px;
+}
+
+/**
+* Chart description
+*/
+
+#tweetshare-chart-description {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 8px 20px 7px 20px;
+}
+
+/**
+* Chart Area
+*/
+
+#onp-sl-chart-area {
+    background-color: #fff;
+    padding: 0 20px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 2px solid #e9e9e9;
+}
+#onp-sl-settings-bar {
+    height: 55px;
+    margin-top: 10px;
+    -webkit-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#onp-sl-settings-bar  .btn {
+    padding: 3px 10px 4px 10px;
+}
+.factory-volumetric #onp-sl-settings-bar  .btn {
+    padding: 3px 8px;
+}
+
+/* Type Select */
+
+#onp-sl-type-select {
+    float: left;
+    white-space: nowrap;
+    border: 0px;
+    position: relative;
+    top: -6px;
+}
+#onp-sl-type-select .fa {
+    font-size: 14px;
+    margin-right: 3px;
+}
+#onp-sl-type-select > * {
+    display: inline-block;
+}
+
+/* Date Select */
+
+#onp-sl-date-select {
+    float: right;
+}
+#onp-sl-date-select > * {
+    display: inline-block;
+    vertical-align: top;
+}
+.onp-sl-range-label {
+    position: relative;
+    margin-right: 8px;
+}
+#onp-sl-date-start, #onp-sl-date-end {
+    width: 120px;
+    height: 28px;
+}
+#onp-sl-apply-dates {
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+#onp-sl-apply-dates .fa {
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+}
+.chart-wrap {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/**
+* Charts selector
+*/
+
+#onp-sl-chart-selector {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 100%;
+}
+#onp-sl-chart-selector .onp-sl-selector-item {
+    display: inline-block;
+    clear: both;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 3px;
+    color: #d0d0d0;
+}
+#onp-sl-chart-selector .onp-sl-selector-item.tweetshare-active {
+    color: #111;
+    background-color: #f9f9f9;
+}
+#onp-sl-chart-selector .onp-sl-selector-item:hover {
+    background-color: #fbfbfb;
+}
+#onp-sl-chart-selector .onp-sl-selector-item {
+    margin: 3px;
+    line-height: 100%;
+    vertical-align: middle;
+    position: relative;
+    left: -3px;
+    top: -3px;
+}
+#onp-sl-chart-selector .chart-color {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+#onp-sl-chart-selector .onp-sl-selector-item.tweetshare-inactive .chart-color {
+    background-color: #e5e5e5 !important;
+}
+
+.onp-chart-hint {
+    margin-top: 5px;
+    display: inline-block;
+    background-color: #ffffdd;
+    padding: 2px 8px;
+    width: 100%;
+    display: none;
+}
+
+/**
+* Posts
+*/
+
+#tweetshare-data-table-wrap {
+    background: #f6f6f6;
+}
+#tweetshare-pagination-wrap {
+    text-align: right;
+}
+#tweetshare-pagination-wrap .pagination {
+    margin-bottom: 0px;
+    text-align: right;
+    margin-top: 10px;
+}
+#tweetshare-data-table {
+    background-color: #fff;
+    width: 100%;
+    padding: 0px;
+    border-collapse: collapse;
+    border-bottom: 2px solid #e5e5e5;
+}
+#tweetshare-data-table thead tr + tr {
+    border-top: 1px solid #f1f1f1;
+}
+#tweetshare-data-table th {
+    text-align: left;
+    padding: 8px 10px 8px 6px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+#tweetshare-data-table th.tweetshare-col-number {
+    text-align: right;
+    white-space: nowrap;
+}
+#tweetshare-data-table th.tweetshare-col-common {
+    text-align: center;
+}
+#tweetshare-data-table td {
+    text-align: right;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    font-size: 12px;
+}
+#tweetshare-data-table td,
+#tweetshare-data-table th {
+    padding: 9px 12px;
+}
+#tweetshare-data-table th .tweetshare-hint {
+    margin-left: 3px;
+    opacity: 0.55;
+    position: relative;
+    height: 14px;
+    width: 13px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: help;
+    vertical-align: middle;
+    top: -1px;
+}
+
+#tweetshare-data-table tr {
+
+    border: 1px solid #cccccc;
+}
+#tweetshare-data-table tbody tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+#tweetshare-data-table .tweetshare-col-index {
+    width: 1%;
+}
+#tweetshare-data-table .tweetshare-col-number {
+    width: 1%;
+    min-width: 150px;
+    border-left: 1px solid #f1f1f1;
+    white-space: nowrap;
+}
+#tweetshare-data-table td em {
+    font-style: normal;
+    color: #aaa;
+}
+#tweetshare-data-table.tweetshare-free-table .tweetshare-col-number {
+    white-space: nowrap;
+}
+#tweetshare-data-table .tweetshare-col-title {
+    text-align: left;
+}
+#tweetshare-data-table .tweetshare-col-title a {
+    text-decoration: none;
+}
+#tweetshare-data-table .tweetshare-col-title a:hover {
+    text-decoration: underline;
+}
+
+#tweetshare-data-table th.tweetshare-column-highlight,
+#tweetshare-data-table td.tweetshare-column-highlight {
+    /*background-color: #fbfbfb;*/
+    font-weight: bold;
+   /*  border-left: 1px solid #eee;
+    border-right: 1px solid #eee; */
+}
+#tweetshare-data-table tr:nth-child(odd) td.tweetshare-column-highlight {
+    background-color: #f7f7f7;
+}
+
+#tweetshare-data-table .tweetshare-empty {
+    text-align: left;
+    font-style: italic;
+}
+
+/**
+* Locker Selector Popup
+*/
+
+#tweetshare-locker-select-popup {
+    position: fixed;
+    padding: 30px;
+    background-color: #fff;
+    -moz-box-sizing: conent-box;
+    box-sizing: conent-box;
+    width: 330px;
+    top: 35%;
+    box-shadow: 0 0 15px 3px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    z-index: 51;
+    margin:auto 30%;
+}
+#tweetshare-locker-select-overlap {
+    background-color: #f1f1f1;
+    opacity: 0.5;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 50;
+}
+#tweetshare-locker-select-popup strong {
+    font-size: 18px;
+}
+#tweetshare-locker-select-popup p {
+    margin-top: 5px;
+}
+#tweetshare-data-table .tweetshare-column-title-value{text-align: justify;}
+
+.overlay-statistics {
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+#wpfooter{position: relative;}
+.chart-post-title{
+	background: #0073AA none repeat scroll 0 0;
+    font-size: 19px;
+    font-weight: 600;
+    height: 23px;
+    text-align: center;
+    font-variant: small-caps;
+    color:#ffffff;
+}
+.chart-post-title a{
+	color:#ffffff;
+	text-decoration: none;
+}
+.post-location{
+	font-size: 20px;
+    margin-left: 5px;
+}
+#chart{
+	border-bottom: 1px solid #0073AA;
+    border-left: 1px solid #0073AA;
+    border-right: 1px solid #0073AA;
+    height: auto;
+    width: 100%;
+}
+.post_link{
+	background: no-repeat url(../../assets/img/sprites.png) -332px -272px;
+    height: 13px;
+    width: 13px;
+}
+.post-location{float: right;}
+.all-click-view{margin-right: 5px;}
+.single_post{float: right;cursor: pointer;color: #0073AA;}
+.filter-form .post_graph_select{vertical-align: top;}
+.breadcrumb{font-size: 16px; font-variant: small-caps; font-weight: 600;text-transform: lowercase;}
+.breadcrumb a{text-decoration: none;}
+.breadcrumb i{font-size: 11px;}
+.tweet_type{font-variant: small-caps;}
+.tweetshare-right .tweetshare_main_page_select_type{padding: 0;}
+.tweetshare_total td h3{font-size:20px;font-family: 'Roboto',sans-serif;}
+.per{font-size:11px;color:#898989;}
+
+#tweetshare-data-table td, #tweetshare-data-table th {
+    border: 1px solid #ccc;
+}
+.tweetshare-column-title-value a{text-decoration: none;}
+#tweetshare-data-table thead tr{background-color: #e9e9e9;}
+
+#tweetshare-data-table thead tr:hover{background-color: #f3f3f3;}
+#tweetshare-data-table tbody tr:hover{background-color: #e9e9e9;}
+.per_s{font-size:11px;color:#898989;min-width: 60px;display: inline-block;}
+.tweet_type{font-style: oblique;font-variant: small-caps;font-weight: 600;text-transform: capitalize;}
+
+
+.statistics-div .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    min-height: 600px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+
+/*.statistics-div .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}*/
+
+.statistics-div .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+.statistics-div .overlay-content {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.statistics-div .overlay-inst{
+    margin-bottom: 15px;
+}
+.statistics-div .overlay-inst h1{
+    color: #ffffff;
+    font-family: initial;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.statistics-div .overlay .twitter_login_link{
+    background: #0073aa none repeat scroll 0 0;
+    border-radius: 2px;
+    font-family: initial;
+    font-size: 18px;
+    font-variant: small-caps;
+    line-height: 0;
+    padding: 20px 35px;
+    width: 330px;
+    margin-bottom: 10px;
+
+}
+.statistics-div .overlay .other_login_link{
+    background: #0073aa none repeat scroll 0 0;
+    border-radius: 2px;
+    font-family: initial;
+    font-size: 18px;
+    font-variant: small-caps;
+    line-height: 0;
+    padding: 20px 35px;
+    width: 330px;
+}

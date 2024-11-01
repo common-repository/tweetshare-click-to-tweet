@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css?family=Harmattan|Quicksand');
+.tweetshare-tweet {
+    display: block;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #dddddd;
+    -moz-border-radius: 4px;
+    border-radius: 5px;
+    padding: 15px 15px 15px 30px;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+    -webkit-box-shadow: 0 8px 6px -6px #cecece;
+    -moz-box-shadow: 0 8px 6px -6px #cecece;
+    box-shadow: 0 8px 6px -6px #cecece;
+}
+.tweetshare-plugin.theme a{
+    text-decoration: none;
+}
+.tweetshare-tweet:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.tweetshare-ts-text a {
+    padding: 15px 0;
+    margin: 15px 0;
+    position: relative;
+    color: #000 !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 2em;
+    line-height: 140%;
+    font-weight: 100;
+    text-decoration: none !important;
+    text-transform: none !important;
+    word-wrap: break-word;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.tweetshare-ts-text a:hover {
+    text-decoration: none;
+    color: #999 !important;
+}
+
+a.tweetshare-ts-btn {
+    border-bottom: none !important;
+    margin: 0;
+    margin-top: 5px;
+    padding: 11px 24px 0 0;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: .7em;
+    font-weight: bold;
+    color: #999999 !important;
+    float: right;
+    text-decoration: none !important;
+    background: transparent url(../img/tweet.png) no-repeat right top 10px;
+    box-shadow: none !important;
+}
+
+.tweetshare-ts-btn:hover {
+    text-decoration: none;
+    color: #666666 !important;
+    background: transparent url(../img/tweet.png) no-repeat right top 8px;
+}
+
+/* ----------------------------------- */
+
+.tweetshare-tweet1 {
+    display: block;
+    padding: 10px;
+    position: relative;
+    font-size: 1.2em;
+    border: 5px solid #00b6e6;
+    -moz-border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+}
+
+.tweetshare-tweet1:hover {
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    border-color: #dddddd;
+    /* IE 5-7 */
+    filter: alpha(opacity=90);
+
+    /* Netscape */
+    -moz-opacity: 0.9;
+
+    /* Safari 1.x */
+    -khtml-opacity: 0.9;
+
+    /* Good browsers */
+    opacity: 0.9;
+
+}
+
+
+
+.tweetshare-tweet1:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.tweetshare-ts-text1 a {
+    padding: 15px 0;
+    margin: 15px 0;
+    position: relative;
+    color: #000 !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 2em;
+    line-height: 140%;
+    font-weight: 100;
+    text-decoration: none !important;
+    text-transform: none !important;
+    word-wrap: break-word;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.tweetshare-ts-text1 a:hover {
+    text-decoration: none;
+    color: #999 !important;
+}
+
+a.tweetshare-ts-btn1 {
+    border-bottom: none !important;
+    margin: 0;
+    margin-top: 5px;
+    padding: 11px 24px 0 0;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font: 12px Roboto,Verdana,sans-serif;
+    font-size: .7em;
+    font-weight: bold;
+    color: #999999 !important;
+    background: #ffcc00;
+    float: right;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.tweetshare-ts-btn1:hover {
+    text-decoration: none;
+    color: #666666 !important;
+
+
+}
+
+.tweetdis_click_to_tweet1{
+    padding: 8px 10px 10px 0;
+    font: 12px Roboto,Verdana,sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    /* position: relative;*/
+    color: #fff;
+    display: block;
+}
+.tweetdis_click_to_tweet1:before{
+    border-top: 8px solid #298ba4;
+    border-right: 8px solid #298ba4;
+    border: 8px solid transparent;
+    border-top: 8px solid #298ba4;
+    border-right: 8px solid #298ba4;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+}
+
+.tweet-footer{
+    background: #ffcc00;
+    padding:5px;
+}
+
+
+/* --------------  tweetshare-panels --------------- */
+
+.tweetshare-panels{
+    background-color: #fff;
+    border-radius: 0px;
+}
+.default-tweetshare-panels{
+
+}
+.tweetshare-panels-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.tweetshare-panels-body {
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.default-tweetshare-panels-body {
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.tweetshare-panels-footer {
+    font-family: 'Harmattan', sans-serif;
+    /* float: right;*/
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    /* border-top: 1px solid #ddd;*/
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.default-tweetshare-panels-footer {
+    font-family: 'Harmattan', sans-serif;
+
+}
+/* ----------- tweetshare-medias -------------- */
+.tweetshare-medias {
+    margin-top: 15px;
+
+
+}
+.tweetshare-medias-body h4{
+    font-family: 'Quicksand', sans-serif;
+}
+.tweetshare-medias:first-child {
+    margin-top: 0;
+}
+.tweetshare-medias-body{
+    background: #e8f6fb;
+    color: #7898a3;
+}
+.tweetshare-medias, .tweetshare-medias-body {
+    overflow: hidden;
+    zoom: 1;
+    font-family: 'Harmattan', sans-serif;
+}
+.tweetshare-medias-body, .tweetshare-medias-left, .tweetshare-medias-right {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+.tweetshare-medias-left, .tweetshare-medias>.pull-left {
+    padding-right: 10px;
+}
+.tweetshare-medias-body, .tweetshare-medias-left, .tweetshare-medias-right {
+    display: table-cell;
+    vertical-align: middle;
+}
+.tweetshare-medias-left img{
+
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px rgba(18, 7, 6, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(18, 7, 6, 0.3);
+    -o-box-shadow: 0px 0px 8px rgba(18, 7, 6, 0.3);
+}
+
+.post .entry-content .tweetshare-plugin a:hover{background:none !important;color:#00B6E6 !important;}
+
+.post .entry-content .inlinetweetshare,.inline_prev a{
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+.inline_prev a{text-decoration:none;}
+.inlinetweetshare .fa-twitter{
+    padding: 3px;
+}
+.inlinetweetshare:hover
+{
+    color: inherit !important;
+    border-color: #55acee !important;
+}
+.tweetshare-theme-9:hover .tweetshare-theme-btn9{border-color:#00b6e6 !important;}
+.tweetshare-panels-footer small a,.post .tweetshare-panels-footer small a:hover,.default-tweetshare-panels-footer small a,.post .default-tweetshare-panels-footer small a:hover{color:#270b0b !important;}
+
+.postform.tweetshare-postform{
+    width: 193px;
+}
+
+#TweetBox .iris-picker.iris-border,#Inline .iris-picker.iris-border{
+    width: 200px;
+    height: 159.5px;
+    position: absolute;
+    margin: 0px;
+}
+#tweetshare_admin .hndle{
+    padding: 0px !important;
+
+}
+
+#tweetshare_admin .form-table .iris-picker {
+    position: absolute;
+    z-index: 99999;
+}
+#tweetshare_admin ul.colorlist {
+
+    list-style-type: none;
+    margin: 0;
+}
+#tweetshare_admin ul.colorlist li{
+    display: inline-block;
+}
+#tweetshare_admin .postbox .hndle, #tweetshare_admin .stuffbox .hndle {
+    border-bottom: none !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#tweetshare_admin .tw{
+    width:381px;
+}
+#tweetshare_admin .form-table th{width:80px;}
+.tweetshare-theme-9:hover .tweetshare-theme-btn9{border-color:#00b6e6 !important;}
+.tweetshare-panels-footer small a,.default-tweetshare-panels-footer small a,.post .tweetshare-panels-footer small a:hover{color:#270b0b !important;}
+
+#tweetshare_admin .w3-sidenav {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    z-index: 1;
+    overflow: auto;
+}
+#tweetshare_admin .w3-container {
+    padding: 0.01em 16px;
+}
+#tweetshare_admin .w3-sidenav a, #tweetshare_admin .w3-dropnav a {
+    display: block;
+}
+#tweetshare_admin .w3-sidenav a {
+    padding: 4px 2px 4px 16px;
+}
+#tweetshare_admin .w3-padding-medium, #tweetshare_admin .w3-padding, #tweetshare_admin .w3-form {
+    padding: 8px 16px !important;
+}
+
+#tweetshare_admin .city {
+    display: none;
+}
+#tweetshare_admin h1,.tweetshare-plugin h1, #tweetshare_admin h2,.tweetshare-plugin h2, #tweetshare_admin h3,.tweetshare-plugin h3, #tweetshare_admin h4,.tweetshare-plugin h4, #tweetshare_admin h5,.tweetshare-plugin h5, #tweetshare_admin h6, .tweetshare-plugin h6 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+#tweetshare_admin h2{
+    font-size: 14px;
+}
+.tweetshare-plugin h2 {
+    font-size: 30px;
+}
+#tweetshare_admin h1,.tweetshare-plugin h1, #tweetshare_admin h2,.tweetshare-plugin h2, #tweetshare_admin h3,.tweetshare-plugin h3, #tweetshare_admin h4,.tweetshare-plugin h4, #tweetshare_admin h5,.tweetshare-plugin h5, #tweetshare_admin h6, .tweetshare-plugin h6 , #tweetshare_admin .w3-slim, #tweetshare_admin .w3-wide {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#tweetshare_admin h2.hndle,.tweetshare-plugin h2.hndle{
+
+    font-variant: small-caps;
+    font-weight: 500;
+}
+
+#tweetshare_admin .w3-sidenav.w3-light-grey.w3-card-2 a:hover{
+    background: #00B9E6;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+#tweetshare_admin .w3-sidenav.w3-light-grey.w3-card-2 a:active{
+    background: #00B9E6;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+#tweetshare_admin .w3-sidenav.w3-light-grey.w3-card-2 a:focus{
+    background: #00B9E6;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+#tweetshare_admin .w3-sidenav.w3-light-grey.w3-card-2 a{
+
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+
+#tweetshare_admin .form-table {
+    border-collapse: none;
+    clear: none;
+    margin-top: none;
+    width: 100%;
+}
+.tweetshare-active-tab{
+    background: #00B9E6;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+
+#tweetshare_admin .form-table td {
+    margin-bottom: 9px;
+    padding: none;
+    line-height: 1.3;
+    vertical-align: middle;
+}
+
+#Tweetshare_Instructions .review a{
+    padding: 10px 15px;
+    background: #00B9E6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+    width: 350px;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+#Tweetshare_Instructions .review{
+    border-bottom: 1px solid #dddddd;
+    padding: 5px;
+}
+
+#tweetshare_admin .w3-sidenav.w3-light-grey.w3-card-2{
+    width:130px;
+    display: block;
+    float: left;
+
+    background: #fff;
+}
+
+.tweetshare-nav{float: left;}
+
+.inside h2.hndle {
+    margin: 14px auto;
+}
+
+#tweetshare_admin .has-right-sidebar #post-body-content {
+    margin-right: 300px;
+    float: none;
+    width: 100%;
+}
+
+#tweetshare_admin .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 12.5%;
+    min-height: 360px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 84.5%;
+    z-index: 1;
+}
+
+#tweetshare_admin .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#tweetshare_admin .overlay a:hover, #tweetshare_admin .overlay a:focus {
+    color: #f1f1f1;
+}
+#tweetshare_admin .overlay-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+#tweetshare_admin .overlay-inst{
+    margin-bottom: 15px;
+}
+#tweetshare_admin .overlay-inst h1{
+    color: #ffffff;
+    font-family: initial;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+#tweetshare_admin .overlay .twitter_login_link{
+    background: #0073aa none repeat scroll 0 0;
+    border-radius: 2px;
+    font-family: initial;
+    font-size: 18px;
+    font-variant: small-caps;
+    line-height: 0;
+    padding: 20px 35px;
+    width: 330px;
+    margin: 20px auto;
+	color:#dddddd;
+
+}
+#tweetshare_admin .overlay .other_login_link{
+    background: #0073aa none repeat scroll 0 0;
+    border-radius: 2px;
+    font-family: initial;
+    font-size: 18px;
+    font-variant: small-caps;
+    line-height: 0;
+    padding: 20px 35px;
+    width: 330px;
+}
+
+#wpfooter{
+    bottom: unset;
+}
+#tweetshare_admin .error_overlay{
+    background: #fff none repeat scroll 0 0;
+    color: red;
+    margin: 12px auto;
+    width: 330px;
+}
+.inlinetweetshare{
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+#tweetshare_admin.has-right-sidebar #post-body-content{margin: 0;}
+
+/*============================For Inline Font family===================================*/
+#tweetshare_admin #Inline .font-select > a{border: 1px solid #dddddd !important;border-radius:0;min-height: 30px;}
+#tweetshare_admin #Inline .font-select{width: 190px;}
+#tweetshare_admin #Inline .fs-drop{width: 190px;}
+#tweetshare_admin #Inline .fs-results{border-right: 1px solid #ddd;width: 189px;}
+#tweetshare_admin #Inline .font-select > a div b{background: rgba(0, 0, 0, 0) url("../../assets/img/fs-sprite.png") no-repeat scroll 0 1px;}
+/*============================For Inline Font family===================================*/
+#tweetshare_admin #scrollbar1 {
+    width: 40%;
+    margin: 20px auto 10px;
+    position: relative;
+}

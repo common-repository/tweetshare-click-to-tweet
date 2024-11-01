@@ -1,0 +1,28 @@
+.mce-i-tweetshare-tweet {
+    font-family: "dashicons";
+}
+
+.mce-i-tweetshare-tweet:before {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    font-family: "dashicons";
+    content: "\f301";
+    color: #4099ff;
+    speak: none;
+    vertical-align: top;
+    position: relative;
+}
+
+i.tweetshare-own-icon {
+    background-image: url('../tweet112.png');
+    /* content: "\f099";
+     font-family: FontAwesome;
+     color: #01395a !important;*/
+}
+.drop {
+    background: #00BEF5;
+}
